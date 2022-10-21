@@ -57,23 +57,13 @@
 // Scroll to section on link click
 
 //smooth scrolling
-document.getElementById('navbar__list').addEventListener('click', function (e) {
-  e.preventDefault();
-  const target = e.target;
-  if (target.classList.contains('menu__link')) {
-      const id = target.getAttribute('href').slice(1);
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth',block: "center" });
-  }
+document.getElementById('navbar__list').addEventListener('click', function (e) { e.preventDefault();
+    const target = e.target;
+    if (target.classList.contains('menu__link')) {
+        const id = target.getAttribute('href').slice(1);
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth',block: "center" });
+    }
 });
-// Set sections as active
-//var a = document.querySelectorAll("#navbar__list a");
-       //   for (var i = 0, length = a.length; i < length; i++) {
-        //    a[i].onclick = function() {
-         //     var b = document.querySelector("navbar__list li.menu__link");
-         //     if (b) b.classList.remove("active");
-         //     this.parentNode.classList.add('active');
-         //   };
-         
-         // }
+
 
           
