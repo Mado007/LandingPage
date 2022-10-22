@@ -1,15 +1,22 @@
 # Landing Page Project
 
-## Description
+## Description of the project
 
 Responsive Landing page project by Udacity
 
-- [Instructions](#instructions)
+## Table of Contents
+* [Project Title](#projectDescription)
 
-## Instructions
+* [Project Description](#projectDescription)
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+* [Dependencies](#dependecies)
 
-To get started, open `js/app.js` and start building out the app's functionality
+* [Usage](#usage)
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Project Title
+
+LandingPage
+
+## Project Description
+
+This project focuses on manipulating the DOM by building a multi-section landing page and dynamically build a navigation menu according to the number of sections. Additionally, the performance was improved through using ,created to use across all devices
