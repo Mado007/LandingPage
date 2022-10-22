@@ -9,7 +9,7 @@ Responsive Landing page project by Udacity
 
 * [Project Description](#projectDescription)
 
-## Project Title)
+## Project Title
 
 LandingPage
 
