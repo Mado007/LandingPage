@@ -10,6 +10,7 @@
 
 
 /* ---- Base Rules ---- */
+
 body {
   background: rgb(136,203,171);
   background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
@@ -44,7 +45,24 @@ p {
   line-height: 1.6em;
   color: #eee;
 }
+/*Responsive code*/
+@media (orientation: portrait) {
+  h1 {
+      /*font-size:1.5em;*/
+      margin: 4em 1rem;
+  } 
 
+  h2 {
+      font-size: 2em;
+  }
+  
+  p {
+      font-size: 0.75em;
+  }
+  .navbar__menu li {
+      height:10vh;
+  }
+}   
 /* ---- Layout Rules ---- */
 main {
   margin: 10vh 1em 10vh;
@@ -65,12 +83,13 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu ul {
-padding-left: 0;
-margin: 0;
-text-align: right;
-background-color: #0b2239;
-font-family: "Oxygen", Sans-Serif;
-font-size: larger;
+  padding-left: 0;
+  margin: 0;
+  text-align: right;
+  background-color: #0b2239;
+  overflow: hidden;
+  font-family: "Oxygen", Sans-Serif;
+  font-size: larger;
 }
 
 .navbar__menu li {
@@ -78,18 +97,26 @@ font-size: larger;
 }
 
 .navbar__menu .menu__link {
-display: block;
-padding: 1em;
-font-weight: bold;
-text-decoration: none;
-color: rgb(244, 244, 71);
-cursor: pointer;
+  display: block;
+  padding: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f8f83d;
+}
+
+.navbar__menu .active__link {
+  display: block;
+  padding: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(228, 194, 194);
+  background-color: rgba(221, 227, 202, 0.256);
 }
 
 .navbar__menu .menu__link:hover {
   background: #050c10;
-color: #ffffff;
-transition: ease 0.3s all;
+  color: #fffffffc;
+  transition: ease 0.3s all;
 }
 
 /* Header Styles */
@@ -197,7 +224,6 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* ---- Theme State Rules ---- */
 /* Section Active Styles */
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
-
 section.your-active-class {
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
@@ -226,3 +252,62 @@ to {
              rotate(-360deg);
 }
 }
+
+/*Responsive Code*/
+@media (orientation: portrait) and (max-width:375px)  {
+  h1 {
+      margin: 4em 1rem;
+  } 
+
+  h2 {
+      font-size: 2em;
+  }
+  
+  p {
+      font-size: 0.75em;
+  }
+  .navbar__menu ul {
+      height:5vh;
+  }
+  .navbar__menu li {
+      font-size: 10px;
+  }
+}   
+@media (orientation: portrait) and (min-width:375px)  {
+  h1 {
+      margin: 2em 1rem;
+  } 
+
+  h2 {
+      font-size: 1.3em;
+  }
+  
+  p {
+      font-size: 0.9em;
+  }
+  .navbar__menu ul {
+      height:5vh;
+  }
+  .navbar__menu li {
+      font-size: 10px;
+  }
+} 
+@media (orientation: landscape) and (max-width:750px)  {
+  h1 {
+      margin: 2em 1rem;
+  } 
+
+  h2 {
+      font-size: 1.3em;
+  }
+  
+  p {
+      font-size: 0.9em;
+  }
+  .navbar__menu ul {
+      height:5vh;
+  }
+  .navbar__menu li {
+      font-size: 10px;
+  }
+} 
