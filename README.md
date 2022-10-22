@@ -9,10 +9,6 @@ Responsive Landing page project by Udacity
 
 * [Project Description](#projectDescription)
 
-* [Dependencies](#dependecies)
-
-* [Usage](#usage)
-
 ## Project Title
 
 LandingPage
