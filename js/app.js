@@ -81,7 +81,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
         event.preventDefault();
         //make every scroll smooth
         document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth', block: 'end', block: 'center'
+            behavior: 'smooth', block: 'center'
         });
     });
 });
