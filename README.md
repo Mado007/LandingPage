@@ -9,10 +9,10 @@ Responsive Landing page project by Udacity
 
 * [Project Description](#projectDescription)
 
-## [(Project Title)](#projectDescription)
+## Project Title)
 
 LandingPage
 
-## [(Project Description)](#projectDescription)
+## Project Description
 
 This project focuses on manipulating the DOM by building a multi-section landing page and dynamically build a navigation menu according to the number of sections. Additionally, the performance was improved through using ,created to use across all devices
