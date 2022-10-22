@@ -5,14 +5,14 @@ Developed By : Mahmoud Eid
 Responsive Landing page project by Udacity
 
 ## Table of Contents
-* [Project Title](#projectDescription)
+* [Project Title](#projectTitle)
 
 * [Project Description](#projectDescription)
 
-## Project Title
+## [(Project Title)](#projectDescription)
 
 LandingPage
 
-## Project Description
+## [(Project Description)](#projectDescription)
 
 This project focuses on manipulating the DOM by building a multi-section landing page and dynamically build a navigation menu according to the number of sections. Additionally, the performance was improved through using ,created to use across all devices
