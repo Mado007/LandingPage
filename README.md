@@ -1,5 +1,5 @@
 # Landing Page Project
-
+Developed By : Mahmoud Eid
 ## Description of the project
 
 Responsive Landing page project by Udacity
